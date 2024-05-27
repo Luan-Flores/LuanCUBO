@@ -87,13 +87,36 @@ import math
 
 
 
-area=float(input('Quantos m² serão pintados?'))
-litros=area/3
-lata=math.ceil(litros/18)
-# if litros>=18:
+# area=float(input('Quantos m² serão pintados?'))
+# litros=area/3
+# lata=math.ceil(litros/18)
+# # if litros>=18:
     
-print('Serão necessários {0:.2f}L de tinta, totalizando {1:.0f} latas de tinta.'.format(litros,lata))
-valor=lata*80
+# print('Serão necessários {0:.2f}L de tinta, totalizando {1:.0f} latas de tinta.'.format(litros,lata))
+# valor=lata*80
 
-print('\nValor total de {0:.0f} latas de tinta é: R${1:.0f}'.format(lata,valor))
+# print('\nValor total de {0:.0f} latas de tinta é: R${1:.0f}'.format(lata,valor))
+# print(litros)
+#lata=5galoes
+#galao de 3.6L 25
+#3 galo 75 (x>3 galo ---> lata )
+#1 lata 80
 
+
+# i=1
+# while i!=0:
+#     i=int(input('141 Games\nCadastro (1)\nLogin    (2)\nSair     (0) '))
+#     if i==1:
+#         nome=input('Nome: ')
+#         idade=int(input('Idade: '))
+#         if idade<18:
+#             print('(Acesso limitado aos games)')
+
+    
+
+        
+
+
+
+
+# print('Fim')
