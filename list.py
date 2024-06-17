@@ -46,12 +46,12 @@
 # og.insert(0,'ak47')#lista.insert(índice,elemento)
 # print(og)
 
-# '''Ordenar a lista'''
-# l=[5,4,10,2,19]
-# l.sort()
-# print(l)
-# l.sort(reverse=True)
-# print(l)
+'''Ordenar a lista'''
+l=[5,4,10,2,19]
+l.sort()
+print(l)
+l.sort(reverse=True)
+print(l)
 
 # '''Show position'''
 # a=[1,2,3,4,5] #    ---> 3 is in position 2
@@ -72,6 +72,6 @@
 # lista.extend([8,90])
 # print(lista)
 
-lista=[0,1,2,3,4,5,6,7,8,9,10]
-print(lista[1:10])
-print(lista[8:11])
+# lista=[0,1,2,3,4,5,6,7,8,9,10]
+# print(lista[1:10])
+# print(lista[8:11])

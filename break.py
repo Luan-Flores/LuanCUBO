@@ -33,10 +33,15 @@ while True:
         me+=1
     while a==4:
         tot=(ba*v1)+(to*v2)+(me*v3)
+        
         print('Bananas: {}\nTomates: {}\nMelancias: {}\nTotal: R${}'.format(ba,to,me,tot))
         t=float(input('Troco para quanto? R$'))
-        print('Troco: R$%.2f'%(t-tot))
-        a=int(input('(1) Voltar ao menu\n'))
+        troco=t-tot
+        if t-tot > 0:    
+            print('Troco: R$%.2f'%(troco))
+            a=int(input('(1) Voltar ao menu\n'))
+        if t-tot < 0:
+            print('Faltam R${:.2} para o total de R${:.2} ' .format(((-1)*troco),tot))
         if a==1:
             ba=0
             to=0
